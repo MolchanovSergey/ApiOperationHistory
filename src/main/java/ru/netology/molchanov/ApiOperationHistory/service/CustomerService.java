@@ -1,5 +1,6 @@
 package ru.netology.molchanov.ApiOperationHistory.service;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
 import ru.netology.molchanov.ApiOperationHistory.domain.Customer;
 import ru.netology.molchanov.ApiOperationHistory.exception.OperationRuntimeException;
